@@ -1,13 +1,13 @@
 # Concept
-**Machine Learning = Looking for Function**
+## Machine Learning = Looking for Function
 
-**Different types of Functions:**
+> **Different types of Functions:**
 1. **`Regression`:** The function outputs a scalar
 2. **`Classification`:** Given options(classes), the function outputs the correct one  
 * **eg.** AlphaGo 19 * 19 each position is a class
 3. **`Stuctured Learning`:** The function create something with structure(image, document)
 
-**Steps to find the function(but just training, not on unseen test data):**
+> **Steps to find the function(but just training, not on unseen test data):**
 1. **Function with unknown parameters** (based on domain knowledge)  
 * L = b + wx 
 * parameters will be learned from data  
@@ -32,6 +32,14 @@
 * when to stop:
 	* I stop it
 	* gradient gets stuck at 0 ==> `Local minimum` ==> actually a fake problem
+
+## Linear models are too simple, we need more sophisticated models ==> `Model Bias`
+* all piecewise linear curves ==> a set of constant + a set of __/¯¯  
+	<img src="https://user-images.githubusercontent.com/68600731/147311761-20125462-6418-42d9-b783-f0cc9f945687.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147312311-3546f3c5-613d-404a-a539-a25a891b790e.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147312704-5afe21e1-eea1-4a02-abe4-9706f509a7f6.png" width="300">
+* sigmoid ==> __/¯¯ 
+
 # Assignment
 
 
