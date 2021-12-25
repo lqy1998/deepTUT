@@ -45,8 +45,10 @@
 This explains why machine usually beats human on benchmark corpora.
 
 * cross-validation  
-<img src="https://user-images.githubusercontent.com/68600731/147386353-34c9a8f7-c996-4ece-83e6-c9af0ab40fd3.png" width="300">  
-<img src="https://user-images.githubusercontent.com/68600731/147386479-52108fe8-f5b0-43e4-bb64-03d04106a217.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147386353-34c9a8f7-c996-4ece-83e6-c9af0ab40fd3.png" width="300">  
+	<img src="https://user-images.githubusercontent.com/68600731/147386479-52108fe8-f5b0-43e4-bb64-03d04106a217.png" width="300">
 
 ## mismatch(kinda overfitting)
-<img src="https://user-images.githubusercontent.com/68600731/147386666-e248b70d-c5fc-4e6e-9786-ffe181fe0426.png" width="300">
+
+<img src="https://user-images.githubusercontent.com/68600731/147386764-224ec092-725f-4b1e-87dd-15b3fce61b9b.png" width="400">
+
