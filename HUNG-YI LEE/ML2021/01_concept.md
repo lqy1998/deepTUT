@@ -7,7 +7,10 @@
 * **eg.** AlphaGo 19 * 19 each position is a class
 3. **`Stuctured Learning`:** The function create something with structure(image, document)
 
-> **Steps to find the function(but just training, not on unseen test data):**
+> **Steps to find the function:**
+* just training, not on unseen test data   
+	<img src="https://user-images.githubusercontent.com/68600731/147384373-8fa34cf8-e738-49f3-94c8-adc2db236568.png" width="300">
+
 1. **Function with unknown parameters** (based on domain knowledge)  
 * L = b + wx 
 * parameters will be learned from data  
@@ -34,6 +37,7 @@
 	* gradient gets stuck at 0 ==> `Local minimum` ==> actually a fake problem
 
 ## Linear models are too simple, we need more sophisticated models ==> `Model Bias`
+
 * all piecewise linear curves ==> constant + a set of __/¯¯  
 	<img src="https://user-images.githubusercontent.com/68600731/147311761-20125462-6418-42d9-b783-f0cc9f945687.png" width="300">
 	<img src="https://user-images.githubusercontent.com/68600731/147312311-3546f3c5-613d-404a-a539-a25a891b790e.png" width="300">
