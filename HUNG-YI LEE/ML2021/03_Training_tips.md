@@ -53,9 +53,15 @@
 	<img src="https://user-images.githubusercontent.com/68600731/147452607-63ac2f19-c9c2-4d9b-b316-c0e91ae3e499.png" width="300">
 
 ## momentum
+* `Vanilla Gradient Descent`
 
+	<img src="https://user-images.githubusercontent.com/68600731/147454578-b02514e0-8384-4387-a405-739a5704ddb7.png" width="300">
 
+* `Momentum`
 
+	<img src="https://user-images.githubusercontent.com/68600731/147454648-db59fc1e-35a3-45df-9b07-dc34b64ec570.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147454702-c9c7b86f-e2e7-4750-bf9f-40491e01b131.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147454727-a990de86-ce22-44a4-a1ce-3d2dc50fbab7.png" width="300">
 
 ## learning rate
 
