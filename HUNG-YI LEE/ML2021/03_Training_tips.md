@@ -1,9 +1,8 @@
 # Training tips
 
-## why failed
-* zero gradient ==> critical point  
-
-	<img src="https://user-images.githubusercontent.com/68600731/147410004-f0e53136-7cd6-40ed-90ea-4b1b7e07eb4c.png" width="300">
+## 3.1 critical point
+### 3.1.1 why stuck ==> small gradient ==> critical point    
+<img src="https://user-images.githubusercontent.com/68600731/147410004-f0e53136-7cd6-40ed-90ea-4b1b7e07eb4c.png" width="300">
 
 * which type critical point ==> how loss function looks like ==> taylor approximation  
 
@@ -26,7 +25,7 @@
 	<img src="https://user-images.githubusercontent.com/68600731/147431462-0434f5a6-8b09-44eb-9a8a-14d81dd03036.png" width="300">
 
 
-## batch
+### 3.1.1 how to escape ==> batch
 * shuffle after each epoch
 
 	<img src="https://user-images.githubusercontent.com/68600731/147445287-a17e3337-55df-444c-8f04-79bea5bd8886.png" width="300">
@@ -52,7 +51,7 @@
 	<img src="https://user-images.githubusercontent.com/68600731/147452494-25dd0009-9826-40eb-8c92-5542996a92ae.png" width="300">
 	<img src="https://user-images.githubusercontent.com/68600731/147452607-63ac2f19-c9c2-4d9b-b316-c0e91ae3e499.png" width="300">
 
-## momentum
+### 3.1.2 how to escape ==> momentum
 * `Vanilla Gradient Descent`
 
 	<img src="https://user-images.githubusercontent.com/68600731/147454578-b02514e0-8384-4387-a405-739a5704ddb7.png" width="300">
@@ -63,8 +62,28 @@
 	<img src="https://user-images.githubusercontent.com/68600731/147454702-c9c7b86f-e2e7-4750-bf9f-40491e01b131.png" width="300">
 	<img src="https://user-images.githubusercontent.com/68600731/147454727-a990de86-ce22-44a4-a1ce-3d2dc50fbab7.png" width="300">
 
-## learning rate
+## 3.2 learning rate
+* loss doesn't get not lower, gradients still concuss
 
+	<img src="https://user-images.githubusercontent.com/68600731/147457629-a6df79bf-f526-4cf4-8227-077a621a9b41.png" width="300">
+	
+* though critical point is rare, training is still difficult
+
+	<img src="https://user-images.githubusercontent.com/68600731/147457693-bacbe16e-d000-40d3-b2f2-64c518cec73f.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147458045-0deefbda-6830-4102-82ed-4402b4be864b.png" width="300">
+
+* different parameters, different learning rates
+1. Root Mean Square ==> Adagrad
+
+
+
+2. RMSProp
+
+
+3. fgsdf
+
+
+4. tyf
 
 
 
