@@ -26,10 +26,33 @@
 	<img src="https://user-images.githubusercontent.com/68600731/147431462-0434f5a6-8b09-44eb-9a8a-14d81dd03036.png" width="300">
 
 
+## batch
+* shuffle after each epoch
 
+	<img src="https://user-images.githubusercontent.com/68600731/147445287-a17e3337-55df-444c-8f04-79bea5bd8886.png" width="300">
 
-## batch momentum
+* small batch v.s. large batch   
 
+	<img src="https://user-images.githubusercontent.com/68600731/147448710-1bb2ed1b-6bd7-463f-a6ba-03076bc6d351.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147448985-af18c002-06c1-41df-b683-267a8c235a17.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147451254-acb57b54-d264-41be-b079-31ea2e853525.png" width="300">
+
+* considering parallel computation, large batch isn't worse than small batch   
+
+	<img src="https://user-images.githubusercontent.com/68600731/147449479-2b3fce25-cfd4-42a9-bc60-418b90ccfcf7.png" width="300">
+	
+* but `noisy` sometime is a good stuff    
+
+	<img src="https://user-images.githubusercontent.com/68600731/147450900-780df913-0015-40d7-88ea-f145173abb1a.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147450571-d11e22f9-e586-48ec-b156-1e960a2e1873.png" width="300">
+	
+* small batch is better on testing data
+	* good minimum ==> flat 
+	* bad minimum ==> sharp 
+	<img src="https://user-images.githubusercontent.com/68600731/147452494-25dd0009-9826-40eb-8c92-5542996a92ae.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147452607-63ac2f19-c9c2-4d9b-b316-c0e91ae3e499.png" width="300">
+
+## momentum
 
 
 
