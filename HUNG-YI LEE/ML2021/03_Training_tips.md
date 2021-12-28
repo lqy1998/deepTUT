@@ -98,7 +98,7 @@ At beginning, model has only seen a small part of data, which is not representat
 <img src="https://user-images.githubusercontent.com/68600731/147540409-92abf71b-182c-4329-92b1-ea1f8900752f.png" width="300">
 
 
-## Error Surface Tips
+## 3.2 Error Surface Tips
 ### 3.2.1 Loss Function
 * classification
 
@@ -122,7 +122,7 @@ In pytorch, soft-max is bound to cross-entropy and is built automatically.
 
 	<img src="https://user-images.githubusercontent.com/68600731/147544118-083d34f0-ff0b-4aa6-ab64-58111300dcf6.png" width="300">
 
-## 3.3 Batch Normalization
+### 3.2.2 Batch Normalization
 * Change the landscape of error surface    
 	<img src="https://user-images.githubusercontent.com/68600731/147546360-0e434622-5971-4d9a-a09f-71ed6b6a019a.png" width="300">
 	<img src="https://user-images.githubusercontent.com/68600731/147546620-b28e9061-eadc-4076-a30e-1ae26b3fa6f2.png" width="300">
