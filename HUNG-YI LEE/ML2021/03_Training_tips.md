@@ -1,6 +1,6 @@
 # Training tips
 
-## 3.1 critical point
+## 3.1 Gradient Descent Tips
 ### 3.1.1 why stuck ==> small gradient ==> critical point    
 <img src="https://user-images.githubusercontent.com/68600731/147410004-f0e53136-7cd6-40ed-90ea-4b1b7e07eb4c.png" width="300">
 
@@ -25,7 +25,7 @@
 	<img src="https://user-images.githubusercontent.com/68600731/147431462-0434f5a6-8b09-44eb-9a8a-14d81dd03036.png" width="300">
 
 
-### 3.1.1 how to escape ==> batch
+### 3.1.2 how to escape from critical point ==> batch
 * shuffle after each epoch
 
 	<img src="https://user-images.githubusercontent.com/68600731/147445287-a17e3337-55df-444c-8f04-79bea5bd8886.png" width="300">
@@ -51,7 +51,7 @@
 	<img src="https://user-images.githubusercontent.com/68600731/147452494-25dd0009-9826-40eb-8c92-5542996a92ae.png" width="300">
 	<img src="https://user-images.githubusercontent.com/68600731/147452607-63ac2f19-c9c2-4d9b-b316-c0e91ae3e499.png" width="300">
 
-### 3.1.2 how to escape ==> momentum
+### 3.1.3 how to escape from critical point ==> momentum
 * `Vanilla Gradient Descent`
 
 	<img src="https://user-images.githubusercontent.com/68600731/147454578-b02514e0-8384-4387-a405-739a5704ddb7.png" width="300">
@@ -62,7 +62,7 @@
 	<img src="https://user-images.githubusercontent.com/68600731/147454702-c9c7b86f-e2e7-4750-bf9f-40491e01b131.png" width="300">
 	<img src="https://user-images.githubusercontent.com/68600731/147454727-a990de86-ce22-44a4-a1ce-3d2dc50fbab7.png" width="300">
 
-## 3.2 learning rate
+### 3.1.4 learning rate
 * loss doesn't get no lower, gradients still concuss but not be small
 
 	<img src="https://user-images.githubusercontent.com/68600731/147457629-a6df79bf-f526-4cf4-8227-077a621a9b41.png" width="300">
@@ -94,11 +94,12 @@ If we only use Adagrad, after a cumulation of small gradients, it cycles between
 
 At beginning, model has only seen a small part of data, which is not representative. Thus, we use warm up to set a small lr value       <img src="https://user-images.githubusercontent.com/68600731/147540386-375ab130-e482-47bd-9e66-a3646134ddd0.png" width="300">
 
-### Gradient Descent Tips ==> Momentum + learning rate  
+### Gradient Descent Function Tips ==> Momentum + learning rate  
 <img src="https://user-images.githubusercontent.com/68600731/147540409-92abf71b-182c-4329-92b1-ea1f8900752f.png" width="300">
 
 
-## loss function
+## Error Surface Tips
+### 3.2.1 Loss Function
 * classification
 
 	<img src="https://user-images.githubusercontent.com/68600731/147542259-36646857-d315-4f0c-bf3b-f4820f0d194c.png" width="300">
@@ -121,18 +122,25 @@ In pytorch, soft-max is bound to cross-entropy and is built automatically.
 
 	<img src="https://user-images.githubusercontent.com/68600731/147544118-083d34f0-ff0b-4aa6-ab64-58111300dcf6.png" width="300">
 
-## batch normalization
+## 3.3 Batch Normalization
+* Change the landscape of error surface    
+	<img src="https://user-images.githubusercontent.com/68600731/147546360-0e434622-5971-4d9a-a09f-71ed6b6a019a.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147546620-b28e9061-eadc-4076-a30e-1ae26b3fa6f2.png" width="300">
 
+* Normalize `a` or `z`, can normalize `z` if using `sigmoid` cause value around 0 has large slope.    
+	<img src="https://user-images.githubusercontent.com/68600731/147547449-495a1124-916b-4749-9895-830c7f936d4d.png" width="300">
 
+* A batch with suitable size can represent the distribution of whole data.    
+	<img src="https://user-images.githubusercontent.com/68600731/147548716-ec5884c5-83b4-41b6-b564-4015ea6aa8e2.png" width='300'>
 
+* Maybe the `zero mean` constraint of normalization can make some bad influence.   
+  We add a β(initialized as (1,1,1)) and γ initialized as (0 0 0)).      
+  Maybe after a long time, a good error surface could be found so β and γ won't suck.     
+	<img src="https://user-images.githubusercontent.com/68600731/147549582-75eb9f74-8e41-47ea-a5df-7c9bf29b5dad.png" width='300'>
 
-
-
-
-
-
-
-
+* If available data is not enough for a batch ==> moving average      
+  In testing, no need to computate mean and std.    
+	<img src='https://user-images.githubusercontent.com/68600731/147550384-143c6204-4f21-4b5e-b8fa-3c0138cae08c.png' width='300'>
 
 
 
