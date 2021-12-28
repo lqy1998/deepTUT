@@ -94,17 +94,32 @@ If we only use Adagrad, after a cumulation of small gradients, it cycles between
 
 At beginning, model has only seen a small part of data, which is not representative. Thus, we use warm up to set a small lr value       <img src="https://user-images.githubusercontent.com/68600731/147540386-375ab130-e482-47bd-9e66-a3646134ddd0.png" width="300">
 
-### Gradient Descent Conclusion:  
+### Gradient Descent Tips ==> Momentum + learning rate  
 <img src="https://user-images.githubusercontent.com/68600731/147540409-92abf71b-182c-4329-92b1-ea1f8900752f.png" width="300">
 
 
 ## loss function
+* classification
 
+	<img src="https://user-images.githubusercontent.com/68600731/147542259-36646857-d315-4f0c-bf3b-f4820f0d194c.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147542395-26dc05b1-4dce-423f-9f0f-27170dde16a8.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147542918-3a536ed3-0f68-4319-aa40-7415792a6d03.png" width="300">
 
+* `soft-max`(three or more classes) = sigmoid(two classes)
+	* normalization
+	* make differences more obvious
 
+	<img src="https://user-images.githubusercontent.com/68600731/147543358-6149e34e-a331-46ab-96e7-895f8899f1b1.png" width="300">
 
+* Loss of Classification
 
+	<img src="https://user-images.githubusercontent.com/68600731/147543602-4d4a6045-c678-4b89-b3e3-3e310ffb0a1a.png" width="300">
 
+In pytorch, soft-max is bound to cross-entropy and is built automatically.
+
+* why `cross-entropy` is better in classification
+
+	<img src="https://user-images.githubusercontent.com/68600731/147544118-083d34f0-ff0b-4aa6-ab64-58111300dcf6.png" width="300">
 
 ## batch normalization
 
