@@ -63,7 +63,7 @@
 	<img src="https://user-images.githubusercontent.com/68600731/147454727-a990de86-ce22-44a4-a1ce-3d2dc50fbab7.png" width="300">
 
 ## 3.2 learning rate
-* loss doesn't get not lower, gradients still concuss
+* loss doesn't get no lower, gradients still concuss but not be small
 
 	<img src="https://user-images.githubusercontent.com/68600731/147457629-a6df79bf-f526-4cf4-8227-077a621a9b41.png" width="300">
 	
@@ -75,18 +75,27 @@
 * different parameters, different learning rates
 1. Root Mean Square ==> Adagrad
 
+	<img src="https://user-images.githubusercontent.com/68600731/147539095-9a5f6596-a4fb-4579-903f-7c030d87ca1c.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147539129-eff6f4be-585f-41b3-8730-f176ae32d3e0.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147539571-157107eb-9796-4715-9657-8d42139139d9.png" width="300">
 
+gradient needs to change more violently and sensitively:point_down:
 
-2. RMSProp
+2. RMSProp ==> Adam = RMSProp + Momentum ==> RAdam(explain warm up)
 
+	<img src="https://user-images.githubusercontent.com/68600731/147539881-d3c3871d-fd4d-4be8-85d1-8d0d6570c604.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147539978-bb1ecf6a-2ccd-403c-a1c9-2346c640ae34.png" width="300">
+	
+3. learning rate scheduling
 
-3. fgsdf
+If we only use Adagrad, after a cumulation of small gradients, it cycles between explosion and convergence.      
+	<img src="https://user-images.githubusercontent.com/68600731/147540059-392586ba-7606-43dc-a666-41a6a6153957.png" width="300">
+	<img src="https://user-images.githubusercontent.com/68600731/147540355-cd2ea1e9-ae83-4aa0-b1a4-e13f25b9701b.png" width="300">
 
+At beginning, model has only seen a small part of data, which is not representative. Thus, we use warm up to set a small lr value       <img src="https://user-images.githubusercontent.com/68600731/147540386-375ab130-e482-47bd-9e66-a3646134ddd0.png" width="300">
 
-4. tyf
-
-
-
+### Gradient Descent Conclusion:  
+<img src="https://user-images.githubusercontent.com/68600731/147540409-92abf71b-182c-4329-92b1-ea1f8900752f.png" width="300">
 
 
 ## loss function
