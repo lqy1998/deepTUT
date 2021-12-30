@@ -33,7 +33,7 @@ We turn to `Word Embedding`.
 seq2seq: translation, speech recognition
 
 
-##
+## eg. Each vector has a label ==> `Sequence Labeling`
 
 
 
