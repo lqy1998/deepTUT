@@ -31,7 +31,7 @@ We turn to `Word Embedding`.
 seq2seq: translation, speech recognition
 
 
-## eg. Each vector has a label ==> `Sequence Labeling`
+## Each vector has a label ==> `Sequence Labeling`
 
 * fully-connected networks don't work because of the unsure-length sequence
 
@@ -40,11 +40,21 @@ seq2seq: translation, speech recognition
 * we can alternate FC and SA
 
    <img src="https://user-images.githubusercontent.com/68600731/147730168-c1bd7696-9d99-4c37-8986-446fb49ca45d.png" width="300">
+   <img src="https://user-images.githubusercontent.com/68600731/147739157-598049dd-3a23-4077-89ad-eb705326b753.png" width="300">
+   <img src="https://user-images.githubusercontent.com/68600731/147739289-642ce947-9aa1-45db-b492-42803ddea334.png" width="300">
 
+* how to calculate attention score   
+   <img src="https://user-images.githubusercontent.com/68600731/147739257-a58f18e1-ed1f-4734-b724-34704fade487.png" width="300">
 
+   1. can add attention score with self
+   2. can change activation function, like ReLU
 
+   <img src="https://user-images.githubusercontent.com/68600731/147739028-9f414d9e-dab8-459a-96e7-c05b7909d020.png" width="300">
+   <img src="https://user-images.githubusercontent.com/68600731/147739652-4f5f141f-f3e6-4052-96e3-e9cfbfd4212f.png" width="300">
 
-
+if an `α` is large, the relevant `v` will dominant b
+  
+  <img src="https://user-images.githubusercontent.com/68600731/147739849-9c21478f-35bb-45c7-944a-fa6f3ff0181d.png" width="300">
 
 ## 
 
