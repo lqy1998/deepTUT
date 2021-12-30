@@ -17,8 +17,6 @@ We turn to `Word Embedding`.
  
    <img src="https://user-images.githubusercontent.com/68600731/147717603-a7938c4a-852c-44df-a2d1-766d91cfc8b6.png" width="300">
 
-   <img src="         " width="300">
-
 * **eg3. graph**
 
    <img src="https://user-images.githubusercontent.com/68600731/147718009-c35ec1e7-c989-4552-9565-aef661b043d5.png" width="300">
@@ -35,11 +33,13 @@ seq2seq: translation, speech recognition
 
 ## eg. Each vector has a label ==> `Sequence Labeling`
 
+* fully-connected networks don't work because of the unsure-length sequence
 
+   <img src="https://user-images.githubusercontent.com/68600731/147729990-9825fbab-3c7f-4d43-99aa-20bedd8f80e8.png" width="300">
 
+* we can alternate FC and SA
 
-
-
+   <img src="https://user-images.githubusercontent.com/68600731/147730168-c1bd7696-9d99-4c37-8986-446fb49ca45d.png" width="300">
 
 
 
