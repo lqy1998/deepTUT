@@ -23,7 +23,24 @@
     
 	<img width="600" src="https://user-images.githubusercontent.com/68600731/147810235-236a3378-a8b8-41b2-8581-f7819ac3c64c.png">
 
+## Seq2Seq Basic Structure
+
+<img width="300" src="https://user-images.githubusercontent.com/68600731/147813162-8c852a2d-7482-430c-baf5-370671180862.png">
+
+* Encoder
+	
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/147814165-970ab4fc-aa10-491b-b10e-ffb182a60b8c.png">
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/147814176-e9942b39-0068-4270-864a-d5b8ec034bd0.png">
+	<img width="300" alt="image" src="https://user-images.githubusercontent.com/68600731/147814484-f43bc6e2-b81c-4225-a887-07ae7018f31b.png">
+
+* Decoder
 
 
 
-##
+
+
+
+
+
+
+
