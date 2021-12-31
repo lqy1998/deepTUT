@@ -70,16 +70,27 @@ seq2seq: translation, speech recognition
    <img src="https://user-images.githubusercontent.com/68600731/147760822-a62bb58d-e817-4861-be48-743d4e0c7793.png" width="300">
    <img src="https://user-images.githubusercontent.com/68600731/147760856-cba60c34-1907-49ea-ba73-11c0b1bcdbc0.png" width="300">
 
-* Positional Encoding
+* Positional Encoding (a bunch of methods)
+	* why? ==> such as, verbs unlikely show up at the beginning
+   <img src="https://user-images.githubusercontent.com/68600731/147798600-6dc30840-dfd1-4b08-bd7d-9a96274190ab.png" width="300">
+
+## Application and Comparison
+
+* application
+    
+	<img src="https://user-images.githubusercontent.com/68600731/147799013-c3bbc28f-0e9a-4251-92ee-dcf40d2a8f90.png" width="300">
+    <img width="300" src="https://user-images.githubusercontent.com/68600731/147799160-66dec9c9-1f53-424f-b708-ffb1ece385eb.png">
+    <img width="300" src="https://user-images.githubusercontent.com/68600731/147800414-0a879adf-4c3a-4c35-86e0-f7e7f59e1bc3.png">
 
 
+* SA v.s. CNN 
+	
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/147799433-f30744b0-9fbf-41e6-b190-c2f4dde723e4.png">
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/147799656-a825e174-5090-40fd-99e0-f843ca2136b8.png">
 
+* SA v.s. RNN
 
-
-
-
-
-
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/147799896-96cf86a1-7a9f-4884-92ce-d47763ebaceb.png">
 
 
 
