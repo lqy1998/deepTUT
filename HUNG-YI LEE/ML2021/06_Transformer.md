@@ -51,7 +51,29 @@
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148149285-fc80ed97-f442-43b6-b329-b6b44d9a66f1.png">
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148150337-2acd06d4-38e7-4240-a247-3df4eea31259.png">
 
-* Decoder ==> eg. `Non-autoregression`(NAT)
+* Decoder ==> eg. `Non-autoregression`(NAT) ==> not popular till self-attention
+
+	* AT v.s. NAT   
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148153636-6b2b9139-3479-48fe-8136-9c28c74cd023.png">
+	
+	* speaking speed controller ==> predict a shorter output length ==> speak faster
+
+* `Transformer` ==> `Cross attention` = bridge between encoder and decoder    
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148154151-526bb184-32cb-44ae-87e3-3fc3997d4e04.png">
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148154787-eacc36d6-05ce-4da9-8e0d-3b44d2f9e42f.png">
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148154865-6dfdc713-121f-4598-98c3-6f4f209990bc.png">
+	
+	* eg.  
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148155610-1ebbae2f-ab7a-489d-94cc-dd09d1f8950a.png">
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148155962-aa9be128-59c9-43b2-8b41-075c7b5fecba.png">
+
+* Training
+
+
+
+
+
+
 
 
 
