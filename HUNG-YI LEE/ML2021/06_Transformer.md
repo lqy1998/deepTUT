@@ -36,18 +36,22 @@
 * Decoder ==> eg. `Autoregression`(AT)
 
 	* Begin token     
+	
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/147852788-77dfa05c-be27-408e-8da4-3537c778390a.png">
 	
 	* can use letter/word/subword/汉字     	
 	
 	* may cause `Error Propagation`
+	
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/147852879-9a341754-64cc-4522-9231-2306955ff847.png">
 
 	* Masked-Self-attention         	
+	
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/147852934-0fcbdedb-3711-409d-9d5f-08ea26533c5c.png">
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148148800-b0a20116-8f32-4d51-9562-ae5a7f9370c2.png">
 
 	* Stop token     
+	
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148149285-fc80ed97-f442-43b6-b329-b6b44d9a66f1.png">
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148150337-2acd06d4-38e7-4240-a247-3df4eea31259.png">
 
@@ -75,13 +79,9 @@
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148172725-fe83f4c6-4a3f-49c8-8044-b6d9b1d60b4d.png">
 
 	* `Teacher Forcing` ==> but during inference(testing) no ground truth could be inputed ==>  `Mismatch`!!!      
+		* `Exposure bias` ==> `Scheduled Sampling`  
 		
-		<img width="300" src="https://user-images.githubusercontent.com/68600731/148173866-c38c1706-b14a-4062-a08e-bcd4ca8bdf7d.png"> 
-		
-		* Exposure bias ==> Scheduled Sampling      		
-		
-		<img width="300" src="https://user-images.githubusercontent.com/68600731/148179135-d9d502ea-62b0-431f-928e-32def48f19e1.png">
-		<img width="300" src="https://user-images.githubusercontent.com/68600731/148179161-8859ff21-cc07-451a-b645-3de0bff7d77c.png">
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148173866-c38c1706-b14a-4062-a08e-bcd4ca8bdf7d.png"> <img width="300" src="https://user-images.githubusercontent.com/68600731/148179135-d9d502ea-62b0-431f-928e-32def48f19e1.png"> <img width="300" src="https://user-images.githubusercontent.com/68600731/148179161-8859ff21-cc07-451a-b645-3de0bff7d77c.png">
 
 
 	* Tips	
