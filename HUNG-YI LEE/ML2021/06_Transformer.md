@@ -54,26 +54,57 @@
 * Decoder ==> eg. `Non-autoregression`(NAT) ==> not popular till self-attention
 
 	* AT v.s. NAT   
+	
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148153636-6b2b9139-3479-48fe-8136-9c28c74cd023.png">
 	
 	* speaking speed controller ==> predict a shorter output length ==> speak faster
 
 * `Transformer` ==> `Cross attention` = bridge between encoder and decoder    
+	
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148154151-526bb184-32cb-44ae-87e3-3fc3997d4e04.png">
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148154787-eacc36d6-05ce-4da9-8e0d-3b44d2f9e42f.png">
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148154865-6dfdc713-121f-4598-98c3-6f4f209990bc.png">
 	
 	* eg.  
+	
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148155610-1ebbae2f-ab7a-489d-94cc-dd09d1f8950a.png">
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/148155962-aa9be128-59c9-43b2-8b41-075c7b5fecba.png">
 
-* Training
+* Training  
+	
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148172725-fe83f4c6-4a3f-49c8-8044-b6d9b1d60b4d.png">
+
+	* `Teacher Forcing` ==> but during inference(testing) no ground truth could be inputed ==>  `Mismatch`!!!      
+		
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148173866-c38c1706-b14a-4062-a08e-bcd4ca8bdf7d.png"> 
+		
+		* Exposure bias ==> Scheduled Sampling      		
+		
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148179135-d9d502ea-62b0-431f-928e-32def48f19e1.png">
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148179161-8859ff21-cc07-451a-b645-3de0bff7d77c.png">
 
 
+	* Tips	
+		* no need to create new ==> `Copy Mechanism`
+		
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148175296-33994498-e464-40b4-ab43-c2b6d4957e35.png">
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148175268-2ed03836-10bc-4c55-9e38-e44ba25b6ab4.png">
 
+		* learn strange features ==> `Guided Attention`   
+		
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148176351-31a6cd8d-f6fc-4b62-9913-2f10a895090e.png">
 
+		* happy ending without happy beginning ==> `Beam Search`
+		
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148177486-d96a249a-81ab-41eb-9e2c-7d3badb097d2.png">
 
+		* random noise   
+		
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148178146-05ffc111-13e9-4dd4-a1ab-92c6b4a5b2bc.png">
 
+		* Optimization ( to be learnt)
+		
+		<img width="300" src="https://user-images.githubusercontent.com/68600731/148178715-641b72de-44a4-4e46-86dd-c85fd3c89700.png">
 
 
 
