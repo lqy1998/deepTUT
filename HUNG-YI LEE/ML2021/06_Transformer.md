@@ -33,20 +33,28 @@
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/147814176-e9942b39-0068-4270-864a-d5b8ec034bd0.png">
 	<img width="300" alt="image" src="https://user-images.githubusercontent.com/68600731/147814484-f43bc6e2-b81c-4225-a887-07ae7018f31b.png">
 
-* Decoder ==> eg. `Autoregression`
+* Decoder ==> eg. `Autoregression`(AT)
 
-* eg. Speeach Recognition
-	* can use letter/word/subword/汉字
-	
+	* Begin token     
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/147852788-77dfa05c-be27-408e-8da4-3537c778390a.png">
-
+	
+	* can use letter/word/subword/汉字     	
+	
 	* may cause `Error Propagation`
-
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/147852879-9a341754-64cc-4522-9231-2306955ff847.png">
 
-	* decoder structure
-	
+	* Masked-Self-attention         	
 	<img width="300" src="https://user-images.githubusercontent.com/68600731/147852934-0fcbdedb-3711-409d-9d5f-08ea26533c5c.png">
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148148800-b0a20116-8f32-4d51-9562-ae5a7f9370c2.png">
+
+	* Stop token     
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148149285-fc80ed97-f442-43b6-b329-b6b44d9a66f1.png">
+	<img width="300" src="https://user-images.githubusercontent.com/68600731/148150337-2acd06d4-38e7-4240-a247-3df4eea31259.png">
+
+* Decoder ==> eg. `Non-autoregression`(NAT)
+
+
+
 
 
 
