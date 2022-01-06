@@ -29,16 +29,22 @@
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148317056-ed235968-c07c-4f7b-922b-97726f6464f4.png'>
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148317131-9dae083c-5ee3-4e90-9062-9f591495c2f4.png'>
 
-* Special usages ==> Interpolation
+* Special usages ==> Interpolation  
 
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148318371-a7942541-8a59-45d5-b069-df76e7f0eeb0.png'>
 
-* Achievements
+* Achievements  
 
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148318538-e9d31393-5c69-4b81-b47c-80257e22f810.png'>
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148318508-5eff6192-3432-4daa-9579-5980ab892f22.png'>
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148318467-f89dd029-d43b-48c1-a4e1-1fcb9a16c193.png'>
 
+## Details
+
+* Objective ==> how to compute the divergence  
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148323306-fabdea3a-c411-467c-a1b9-89448a8a9507.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148323928-8b6c46af-0d46-4b32-a8f1-80b026fae926.png'>
 
 
 
