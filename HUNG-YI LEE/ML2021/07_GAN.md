@@ -41,30 +41,44 @@
 
 ## Details
 
-* Objective
+* Objective	
 	
-	* how to compute the divergence 	
+	* how to compute the divergence  
+		
 		<img width="300" src='https://user-images.githubusercontent.com/68600731/148323306-fabdea3a-c411-467c-a1b9-89448a8a9507.png'>
 		<img width="300" src='https://user-images.githubusercontent.com/68600731/148323928-8b6c46af-0d46-4b32-a8f1-80b026fae926.png'>
 
-	* how to approach the divergence
-		<img width="300" src='https://user-images.githubusercontent.com/68600731/148341911-c2def399-d608-4cf9-9dfd-5aa7b56e3b57.png'>
-		<img width="300" src='https://user-images.githubusercontent.com/68600731/148342745-0d6fbf4e-e2f6-4986-86e9-d15be29c9bba.png'>		
-		<img width="300" src='https://user-images.githubusercontent.com/68600731/148343290-9751f2a7-4073-4123-abd9-d01225d09c66.png'>
+	* how to approach the divergence  
+		
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148341911-c2def399-d608-4cf9-9dfd-5aa7b56e3b57.png'>		
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148342745-0d6fbf4e-e2f6-4986-86e9-d15be29c9bba.png'>
+		<img width="280" src='https://user-images.githubusercontent.com/68600731/148343290-9751f2a7-4073-4123-abd9-d01225d09c66.png'>
 
-	* different divergence, different objective function
-		<img width="300" src='https://user-images.githubusercontent.com/68600731/148343453-68d95cfd-0f87-4b2a-a10d-cebc45f0b620.png'>
+	* different divergence, different objective function  
+		
+		<img width="660" src='https://user-images.githubusercontent.com/68600731/148343453-68d95cfd-0f87-4b2a-a10d-cebc45f0b620.png'>
 
-* Tips ==> No PAIN NO GAN, GAN is hard to train
-
-* 
+* Tips ==> e.g. WGAN ==> No PAIN NO GAN, GAN is hard to train   	
+	
+	* JS Div failed, we used to depend on human eyes
+		
 		<img width="300" src='https://user-images.githubusercontent.com/68600731/148345164-c3e1e584-ddd5-4db5-a0e8-65aac6415507.png'>
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148350507-74f90f8a-8f47-4272-b786-4ebb78ac6fdf.png'>
 
+	* Wasserstein distance = Earth mover distance
+		
+		* find the shortest distance in all ==> another optimization problem		
+		
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148354524-19b10e63-ccdc-4419-a3c0-52cee35bc8d8.png'>
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148354607-5a911aff-c4f6-49e0-b658-2a27d69fd729.png'>
+		
+		* a small step, an obvious difference
+		
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148358106-0dfc84da-5771-4b7d-9b8d-4e65eecebc01.png'>
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148358895-77249d27-e53a-469b-adce-366b630760c8.png'>
 
-
-
-
-
+* WGAN
+![image](https://user-images.githubusercontent.com/68600731/148361751-e1e035ff-da68-432b-824f-2d73cd178ee0.png)
 
 
 
