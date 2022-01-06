@@ -41,10 +41,41 @@
 
 ## Details
 
-* Objective ==> how to compute the divergence  
+* Objective
 	
-	<img width="300" src='https://user-images.githubusercontent.com/68600731/148323306-fabdea3a-c411-467c-a1b9-89448a8a9507.png'>
-	<img width="300" src='https://user-images.githubusercontent.com/68600731/148323928-8b6c46af-0d46-4b32-a8f1-80b026fae926.png'>
+	* how to compute the divergence 	
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148323306-fabdea3a-c411-467c-a1b9-89448a8a9507.png'>
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148323928-8b6c46af-0d46-4b32-a8f1-80b026fae926.png'>
+
+	* how to approach the divergence
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148341911-c2def399-d608-4cf9-9dfd-5aa7b56e3b57.png'>
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148342745-0d6fbf4e-e2f6-4986-86e9-d15be29c9bba.png'>		
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148343290-9751f2a7-4073-4123-abd9-d01225d09c66.png'>
+
+	* different divergence, different objective function
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148343453-68d95cfd-0f87-4b2a-a10d-cebc45f0b620.png'>
+
+* Tips ==> No PAIN NO GAN, GAN is hard to train
+
+* 
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148345164-c3e1e584-ddd5-4db5-a0e8-65aac6415507.png'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
