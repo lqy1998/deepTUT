@@ -17,14 +17,27 @@
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148192462-1dba2b5c-2565-46e9-9478-7b2d9a108609.png'>
 
 ## GAN
-*
+
+* Basic idea
+	
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148193129-b1825d22-b53a-438e-a8cf-d45bcea8cce7.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148315569-b4180185-65d8-4135-866f-698cd513afbd.png'>
 
+* Training steps
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148315861-fd622bd9-355d-4930-a3db-773411f0bad8.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148317056-ed235968-c07c-4f7b-922b-97726f6464f4.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148317131-9dae083c-5ee3-4e90-9062-9f591495c2f4.png'>
 
+* Special usages ==> Interpolation
 
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148318371-a7942541-8a59-45d5-b069-df76e7f0eeb0.png'>
 
+* Achievements
 
-
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148318538-e9d31393-5c69-4b81-b47c-80257e22f810.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148318508-5eff6192-3432-4daa-9579-5980ab892f22.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148318467-f89dd029-d43b-48c1-a4e1-1fcb9a16c193.png'>
 
 
 
