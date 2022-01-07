@@ -104,18 +104,63 @@
 
 * Some altenative solutions ==> supervised learning
 	
-	<img width="300" src='https://user-images.githubusercontent.com/68600731/148505737-d37b69a0-6cb5-49ea-9a82-be5e85dd1a66.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148508332-1ea0c35c-41dd-4929-8d60-1565acd7777d.png'>
 
 ## Evaluation of Generation
 
+* Using a classifier ==> **high Detection rate / Concentrated distribution** means good quality
 
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148509652-425c1b04-69d3-4b34-a6a0-5b05fdb1abdc.png'>
 
+* `mode collapse` ==> generate similar imgs which could always fool Discriminator ==> stop at `mode collapse` and use the model at last step
 
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148510811-f0a762f4-92a3-4e12-85a4-6bc8ad5e7437.png'>
 
+* `mode droping` ==> possess diversity, but not as enough as real world
 
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148511339-32e64472-a1f8-45c9-a22c-58e4ee14a5d7.png'>
 
+* good quality and large diversity
 
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148513288-a0472f2b-e948-4fa8-8006-8e7768428313.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148515966-2f4fe4c5-3b73-4199-bf09-65f0c09d1b1b.png'>
 
+* Comparison of different GANs and VAE
+	<img width="660" src='https://user-images.githubusercontent.com/68600731/148516637-57145770-c85c-4657-bfbf-75d33ed46cae.png'>
+
+* Unpleasant thing ==> it imitates well, but performs badly
+
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148519553-ceeefff6-1c02-4f19-9c77-93cbaa110fff.png'>
+
+* to learn more
+
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148521237-2526036d-36a0-445e-8780-119539e31265.png'>
+
+## Conditional GAN ==> kinda supervised learning
+
+* e.g. text-to-image
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148521340-30b1bbba-b30c-4876-af0a-2b1d17e94299.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148526071-e5ac9e46-0261-4e7f-884b-1a92ca7b107f.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148526055-52e519f3-dee9-4611-8bcf-4365974f93cd.png'>
+
+* e.g. image-to-image
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148526096-4422095b-c2d3-41b4-a2ee-ae1307731668.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148526176-97767bb2-6c65-46a8-a5ba-7943ef3befe8.png'>
+
+* e.g. sound-to-image
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148526197-be60c775-ec22-488c-8e19-7046378018e8.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148526237-6c6fadd6-5441-4464-9321-b54f112972c2.png'>
+
+* e.g. talking head
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148526337-4c965bc6-bfa5-4739-805e-e75de6c53ff9.png'>
+
+* multi-label
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148526450-2bffbade-83e4-40e8-b7c2-4eea92f62b1e.png'>
 
 
 
