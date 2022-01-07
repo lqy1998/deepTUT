@@ -87,6 +87,17 @@
 		* In practice, discriminator parameters are usually trained few times,    
 		  and also be trained based on last step but not from the very beginning.      
 
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148486548-74650f3f-8c7b-4550-93b3-b1b4dd554701.png'>
+
+## Application
+* GAN for sequence generation
+	
+	* Why max pooling can use gradient descent, but max cannot
+		
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148487024-cc93934f-0c6d-4c72-98a7-576468e7105a.png'>
+
+
+
 
 
 
