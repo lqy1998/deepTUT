@@ -50,9 +50,9 @@
 
 	* how to approach the divergence  
 		
-		<img width="300" src='https://user-images.githubusercontent.com/68600731/148341911-c2def399-d608-4cf9-9dfd-5aa7b56e3b57.png'>		
-		<img width="300" src='https://user-images.githubusercontent.com/68600731/148342745-0d6fbf4e-e2f6-4986-86e9-d15be29c9bba.png'>
-		<img width="280" src='https://user-images.githubusercontent.com/68600731/148343290-9751f2a7-4073-4123-abd9-d01225d09c66.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148341911-c2def399-d608-4cf9-9dfd-5aa7b56e3b57.png'>		
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148342745-0d6fbf4e-e2f6-4986-86e9-d15be29c9bba.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148343290-9751f2a7-4073-4123-abd9-d01225d09c66.png'>
 
 	* different divergence, different objective function  
 		
@@ -94,12 +94,19 @@
 	
 	* Why max pooling can use gradient descent, but max cannot
 		
-		<img width="300" src='https://user-images.githubusercontent.com/68600731/148487024-cc93934f-0c6d-4c72-98a7-576468e7105a.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148487024-cc93934f-0c6d-4c72-98a7-576468e7105a.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148503192-9ce9aa99-2364-48de-8ea0-ad7984ea8f3b.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148503247-49ad6787-806f-4216-838b-4c4dbeb44144.png'>
 
+* More generative models ==> GAN performs best with the same efforts
+		
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148503295-eab0c751-2b22-4c44-adfb-55be88a12413.png'>
 
+* Some altenative solutions ==> supervised learning
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148505737-d37b69a0-6cb5-49ea-9a82-be5e85dd1a66.png'>
 
-
-
+## Evaluation of Generation
 
 
 
