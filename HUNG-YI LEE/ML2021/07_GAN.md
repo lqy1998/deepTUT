@@ -50,9 +50,9 @@
 
 	* how to approach the divergence  
 		
-	<img width="300" src='https://user-images.githubusercontent.com/68600731/148341911-c2def399-d608-4cf9-9dfd-5aa7b56e3b57.png'>		
-	<img width="300" src='https://user-images.githubusercontent.com/68600731/148342745-0d6fbf4e-e2f6-4986-86e9-d15be29c9bba.png'>
-	<img width="300" src='https://user-images.githubusercontent.com/68600731/148343290-9751f2a7-4073-4123-abd9-d01225d09c66.png'>
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148341911-c2def399-d608-4cf9-9dfd-5aa7b56e3b57.png'>		
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148342745-0d6fbf4e-e2f6-4986-86e9-d15be29c9bba.png'>
+		<img width="300" src='https://user-images.githubusercontent.com/68600731/148343290-9751f2a7-4073-4123-abd9-d01225d09c66.png'>
 
 	* different divergence, different objective function  
 		
@@ -126,6 +126,7 @@
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148515966-2f4fe4c5-3b73-4199-bf09-65f0c09d1b1b.png'>
 
 * Comparison of different GANs and VAE
+	
 	<img width="660" src='https://user-images.githubusercontent.com/68600731/148516637-57145770-c85c-4657-bfbf-75d33ed46cae.png'>
 
 * Unpleasant thing ==> it imitates well, but performs badly
