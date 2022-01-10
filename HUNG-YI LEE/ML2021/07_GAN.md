@@ -163,6 +163,43 @@
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148526450-2bffbade-83e4-40e8-b7c2-4eea92f62b1e.png'>
 
 
+## Learning from unpaired data
+
+* how ==> change the sampling distribution
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148710204-9147eab3-486f-4740-9e1d-f696ad9f659f.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148710224-8368c980-bc60-418c-ba59-d988a4a1360d.png'>	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148710230-0ac8d243-837b-413f-ab25-c81633c3d348.png'>
+
+* problem
+	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148712151-ce9214b9-4593-42e0-be45-fc34f47ef721.png'>	
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148712174-bd787c8e-20ab-4e94-ab41-9a8e4f90fe84.png'>
+
+* solution ==> Cycle GAN
+
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148712740-e86b68bf-43ed-4e9c-8ca1-207a8efceb13.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148713207-51d70074-848c-4e14-9cd2-cc4b918a9be6.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148714163-eb2c0eb2-a7f1-4667-96f0-916c36713508.png'>
+
+	* Network may learn some strange tips, such as convert glasses to a nevus...
+	* But in practice, vanilla GAN is powerful enough, it is too lazy to find a sophisticated convertion.
+	* Theoratically, we need garantee, though which is still not very reliable.
+
+* multi-style transfer and other applications
+
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148715514-0019fc37-f562-4913-bfc2-b5fb368e75bd.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148714651-b870427d-da43-4b40-aa4e-8fdced980585.png'>
+	
+	*
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148715496-a367da59-caba-4358-a1f6-08a32f1f56fd.png'>
+	<img width="300" src='https://user-images.githubusercontent.com/68600731/148715532-1d2d86d1-99d1-44ec-bcb4-ce9c67b10591.png'>
+
+
+
+
+
+
 
 
 
