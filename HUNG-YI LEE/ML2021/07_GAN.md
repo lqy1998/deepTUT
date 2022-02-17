@@ -172,7 +172,7 @@
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148710224-8368c980-bc60-418c-ba59-d988a4a1360d.png'>	
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148710230-0ac8d243-837b-413f-ab25-c81633c3d348.png'>
 
-* problem
+* problem ==> ignore input and output a random img of Dy
 	
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148712151-ce9214b9-4593-42e0-be45-fc34f47ef721.png'>	
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148712174-bd787c8e-20ab-4e94-ab41-9a8e4f90fe84.png'>
@@ -195,9 +195,6 @@
 	*
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148715496-a367da59-caba-4358-a1f6-08a32f1f56fd.png'>
 	<img width="300" src='https://user-images.githubusercontent.com/68600731/148715532-1d2d86d1-99d1-44ec-bcb4-ce9c67b10591.png'>
-
-
-
 
 
 
